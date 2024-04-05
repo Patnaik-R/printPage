@@ -1,8 +1,9 @@
 {
-  "name": "printpage",
+  "name": "argus-currency-converter",
   "version": "1.0.0",
-  "description": "print the custom divs",
+  "description": "Convert into selected currency",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "test": "test"
   },
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Patnaik-R/printPage/issues"
   },
-  "homepage": "https://github.com/Patnaik-R/printPage#readme"
+  "homepage": "https://github.com/Patnaik-R/printPage#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
 }
